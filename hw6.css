@@ -1,0 +1,212 @@
+/*
+* @Author: lenovo
+* @Date:   2019-06-03 21:08:31
+* @Last Modified by:   lenovo
+* @Last Modified time: 2019-06-11 20:30:54
+*/
+*{	padding: 0;margin: 0;}
+li{list-style: none ;}
+a{text-decoration: none;color: black}
+.top1{height: 30px;background-color: #f4f4f4;}
+.top2{
+	height: 30px;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.top2 .left{
+	float: left;
+	line-height: 30px;
+	margin-right: 10px;   /* 关于给它加样式a变色，我们需要专门对a加样式，对于a的父级，是不可以的 */
+
+}
+.top2 .right{
+	float: right;
+	line-height: 30px;
+	margin-left: 10px;
+}
+
+
+.white{
+	height: 160px;
+	border-bottom: 3px solid #e00304 
+}
+.inside{
+	height: 160px;
+	width: 1200px;
+	margin: 0 auto;
+	background: url('images/E.png') no-repeat 0 20px;
+}
+.inside img{
+	display: inline-block;
+	/* margin-top: 20px; */
+}
+.search{
+	height: 40px;
+	width: 495px;
+	margin-left: 385px;    /* 这里的margin是相对于左侧的物体的 */
+	margin-top: 40px;
+	border: 2px solid #f83838;
+	font-size: 14px;
+	display: inline-block;
+}
+.in1{
+	height: 36px;
+	width: 401px;
+	display: inline-block;
+	color:#bcbcbc ;
+	border: 2px solid #f83838 ;    /* input也可以设置边框的 */
+	text-indent: 10px
+}
+.sou{
+	text-align: center;
+	line-height: 40px;
+	width: 90px;
+	height: 40px;
+	background: #f83838;
+	color: white;
+	display: inline-block;
+
+}
+.sou a{color:white;
+font-size:16px;}
+.inside p{
+	margin-top: 40px;
+	margin-right: 5px;
+	float: right;
+	background: #f5f5f5;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #e3e3e3;
+}
+.add{
+	color: #f83838;
+}
+.inside .nav{
+	height: 45px;
+	margin-top: 35px;
+}
+.nav li{
+	float: left;
+	height: 45px;
+	width: 125px;
+	line-height: 45px;
+	text-align: center;
+	border-radius:4px;
+}
+.nav li:hover{    /* 伪类前的空格 */
+	
+	background-color: #f83838; 
+	border-radius:4px; /* 圆角的o */
+}
+.nav li:hover .a{color: white}
+
+
+.body{
+	background-color: #fbfbfb;
+	height: 650px;
+}
+.bodyin{
+	height: 650px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.Left{
+	width: 215px;
+	display: inline-block;
+}
+.bodynav{
+	margin-top: 26px;
+	margin-bottom: 23px;
+	font-size: 14px;
+}
+
+.allsort{
+	height: 45px;
+	width: 215px;
+	background: white;
+	margin: 0 10px 10px 0;
+	line-height: 45px;
+	/* text-align: center; */
+}
+.allsort img{
+	margin-left: 30px;   /* img可以直接加margin */
+}
+/* .allsort p{
+	margin-left: 70px;
+} */
+.sort{
+	height: 510px;
+	width: 215px;
+	background: white;
+	margin: 0 10px 20px 0;
+}
+.sort li{
+	
+	font-size:14px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 70px;
+}
+.sort li a :visited{
+	color: #ff2c18;
+	font-size:14px;
+}
+.goods{
+	float: right;
+	width: 972px;
+	height: 565px;
+	background: white;
+
+}
+.goods li{
+	float: left;
+}
+.goods .g1{margin:17px 0 17px 16px;}
+.goods .g2{margin-left:16px;}
+
+.bottom{
+	height: 250px;
+	background: #2e2e2e;
+}
+.bottomin{
+	height: 250px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.bottomin ul{
+	display: inline-block;
+	margin-right: 190px;
+}
+.bottomin .last-child{
+	display: inline-block;
+	margin-right: 0;    /* 这个margin要再加，不要想当然 */
+}
+.bottomin ul li{
+	color: white;
+	margin-bottom: 14px;
+}
+.bottomin ul li a{	font-size: 14px;}
+.bottomin ul :first-child{
+	color: white;
+	margin-top: 19px;
+	margin-bottom: 19px;
+}
+.bottomin ul :first-child a{font-size: 16px;}
+.bottomin .bottomin2{
+	border-top: 1px solid #a4a4a4;
+}
+.bottomin .bottomin2 p{
+	text-align: center;
+	color: #a4a4a4;
+	font-size: 14px;
+}
+.bottomin .bottomin2 .bt1{
+	margin-top: 25px
+}
+.bottomin .bottomin2 .bt2{
+	margin-top: 15px
+}
